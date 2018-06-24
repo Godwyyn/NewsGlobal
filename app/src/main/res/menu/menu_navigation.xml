@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_technology"
+            android:icon="@drawable/common_google_signin_btn_icon_light"
+            android:title="@string/cat_tech"
+
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/common_google_signin_btn_icon_light_focused"
+            android:title="@string/cat_Sport" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/common_google_signin_btn_icon_light_normal"
+            android:title="@string/cat_bus" />
+        <item
+            android:id="@+id/nav_local"
+            android:icon="@drawable/common_google_signin_btn_icon_dark"
+            android:title="@string/cat_local" />
+    </group>
+
+
+</menu>
